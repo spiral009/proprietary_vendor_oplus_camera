@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/camera/proprietary/system_ext/lib64/libst_mobile.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libst_mobile.so \
     vendor/oplus/camera/proprietary/system_ext/lib64/libst_sticker_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libst_sticker_jni.so \
     vendor/oplus/camera/proprietary/system_ext/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
+    vendor/oplus/camera/proprietary/system_ext/etc/default-permissions/oplus_gallery_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_gallery_default_grant_permissions_list.xml \
     vendor/oplus/camera/proprietary/odm/lib64/libCaptureBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libCaptureBokeh.so \
     vendor/oplus/camera/proprietary/odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPAlgoCamAIBeautyBodyDetection.so \
     vendor/oplus/camera/proprietary/odm/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so \
@@ -65,4 +66,5 @@ PRODUCT_PACKAGES += \
     OplusCamera \
     oplus-support-wrapper \
     com.oplus.camera.unit.sdk.adapter \
-    com.oplus.camera.unit.sdk
+    com.oplus.camera.unit.sdk \
+    OnePlusGallery
